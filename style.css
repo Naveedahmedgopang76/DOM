@@ -1,0 +1,82 @@
+.head {
+  color: navy;
+  text-align: center;
+}
+.first {
+  background-color: darkseagreen;
+}
+.about {
+  color: cornflowerblue;
+  text-align: center;
+}
+
+.animal {
+  display: flex;
+}
+
+.animal {
+  height: 100vh;
+  display: grid;
+  gap: 3rem;
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.animal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn {
+  width: 150px;
+  height: 150px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  border-radius: 10px;
+  text-shadow: 1px 1px 2px black;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Background images for each animal */
+.cat {
+  background-image: url("sounds/img/cat.jpg.jpg");
+}
+
+.dog {
+  background-image: url("sounds/img/dog.jpg.jpg");
+}
+
+.lion {
+  background-image: url("sounds/img/lion.jpg.jpg");
+}
+
+.horse {
+  background-image: url("sounds/img/horse.jpg.jpg");
+}
+
+.bear {
+  background-image: url("sounds/img/bear.jpg.jpg");
+}
+
+.camel {
+  background-image: url("sounds/img/camel.jpg.jpg");
+}
+
+.donkey {
+  background-image: url("sounds/img/donkey.jpg.jpg");
+}
+
+.cow {
+  background-image: url("sounds/img/cow.jpg.jpg");
+}
